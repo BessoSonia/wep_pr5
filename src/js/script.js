@@ -1,4 +1,4 @@
-import bootstrap from "bootstrap";
+import bootstrap from 'bootstrap'
 import Popper from "popper.js"
 import $ from "jquery";
 

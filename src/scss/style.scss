@@ -1,5 +1,6 @@
 $def-margin: 25px;
 $font: "Helvetica";
+@import "~bootstrap/scss/bootstrap";
 
 body {
     background-color: rgb(213, 231, 190);
@@ -21,6 +22,10 @@ h1 {
       width: initial;
       height: 100%;
     }
+}
+
+button{
+  margin: 15px;
 }
 
 .carousel{
@@ -55,18 +60,6 @@ h1 {
       margin-left: $def-margin;
       margin-bottom: $def-margin;
     }
-    // .ramka {
-    //   overflow: hidden;
-    //   width: 250px;
-    //   height: 250px;
-    //   overflow: hidden;
-    //   position: relative;
-    //   margin: auto;
-    //   img {
-    //     width: initial;
-    //     height: 100%;
-    //   }
-    // }
   }
   
   .close-modal {
